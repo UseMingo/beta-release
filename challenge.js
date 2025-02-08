@@ -31,12 +31,12 @@ function showMysteryBox() {
     let rewardText = document.getElementById("rewardText");
 
     mysteryBox.classList.remove("hidden");
-    boxImage.src = "assets/box-closed.jpg"; // Closed box image
+    boxImage.src = "box-closed.jpg"; // Closed box image
     rewardText.innerHTML = "";
 
     setTimeout(() => {
         boxImage.classList.add("open");
-        boxImage.src = "assets/box-open.jpg"; // Open box image
+        boxImage.src = "box-open.jpg"; // Open box image
         rewardText.innerHTML = "🎉 You won a virtual reward!";
     }, 1000);
 }
