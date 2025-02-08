@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Challenge | MysteryBox</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <button id="homeButton">Home</button> <!-- Home button added -->
+        <h1>🧩 Daily Puzzle</h1>
+    </header>
+
+    <section class="puzzle-box">
+        <h2>Today's Mystery Challenge</h2>
+        <p id="puzzle">Loading...</p>
+        <input type="text" id="answer" placeholder="Enter your answer">
+        <button id="submitAnswer">Submit</button>
+        <button id="giveUp">Give Up</button>
+        <p id="result"></p>
+    </section>
+
+    <div class="mystery-box hidden" id="mysteryBox">
+        <img src="assets/box-closed.png" id="boxImage" alt="Mystery Box">
+        <p id="rewardText"></p>
+    </div>
+
+    <script src="challenge.js"></script>
+</body>
+</html>

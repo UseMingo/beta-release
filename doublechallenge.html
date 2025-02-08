@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenges | MysteryBox</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <button id="homeButton">Home</button> <!-- Home button to go back -->
+        </a>
+        <h1>🎯 Challenges</h1>
+    </header>
+
+    <section class="challenge-list">
+        <h2>Available Challenges</h2>
+        <div class="challenge-item">
+            <h3>Challenge 1: Trivia Quiz</h3>
+            <p>Test your knowledge with a trivia quiz!</p>
+            <button onclick="startChallenge('Trivia Quiz')">Start Challenge</button>
+        </div>
+        <div class="challenge-item">
+            <h3>Challenge 2: Puzzle Master</h3>
+            <p>Solve a set of puzzles to win!</p>
+            <button onclick="startChallenge('Puzzle Master')">Start Challenge</button>
+        </div>
+        <div class="challenge-item">
+            <h3>Challenge 3: Riddle Solver</h3>
+            <p>Can you solve the tricky riddles?</p>
+            <button onclick="startChallenge('Riddle Solver')">Start Challenge</button>
+        </div>
+    </section>
+
+    <script src="doublechallenge.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>

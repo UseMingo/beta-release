@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rewards | MysteryBox</title>
+    <link rel="stylesheet" href="reward.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <button id="homeButton">Home</button> <!-- Home button to go back -->
+        </a>
+        <h1>🏆 Rewards</h1>
+    </header>
+
+    <section class="reward-list">
+        <h2>Available Rewards</h2>
+        <div class="reward-item">
+            <h3>Gold Trophy</h3>
+            <p>Earned after completing 5 challenges!</p>
+            <button onclick="claimReward('Gold Trophy')">Claim Reward</button>
+        </div>
+        <div class="reward-item">
+            <h3>Exclusive Badge</h3>
+            <p>Claim this for completing 10 challenges!</p>
+            <button onclick="claimReward('Exclusive Badge')">Claim Reward</button>
+        </div>
+        <div class="reward-item">
+            <h3>VIP Access</h3>
+            <p>Unlock VIP features after reaching level 5!</p>
+            <button onclick="claimReward('VIP Access')">Claim Reward</button>
+        </div>
+    </section>
+
+    <script src="reward.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
